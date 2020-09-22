@@ -3,7 +3,8 @@ package com.company;
 import lombok.Data;
 
 @Data
-public class EmailChannel implements Channel {
+public class EmailChannel extends AbstractChannel {
+
 
     private AttachmentType attachment;
     @Override
