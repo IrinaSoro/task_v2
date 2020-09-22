@@ -1,5 +1,5 @@
 package com.company;
 
 public interface Channel {
-    void sendMessage (Message message);
+    void sendMessage(Message message);
 }

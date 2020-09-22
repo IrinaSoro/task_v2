@@ -10,4 +10,5 @@ private String sender_name;
 private LocalTime time;
 private String text;
 private ArrayList<Attachments> attachments;
+private ArrayList<Channel> channels;
 }
